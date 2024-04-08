@@ -52,3 +52,28 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+
+.btn-1 {
+    background-color: blue;
+    border: violet;
+}
+.btn-1:hover {
+    background-color: lightblue;  
+    transition-duration: 3s;
+}
+.btn-2 {
+    background-color: palevioletred;
+    border: pink;
+}
+.btn-2:hover {
+    background-color: lightpink;
+    transition-duration: 3s;
+}
+.btn-3{
+    background-color: red;
+    border: red;
+}
+.btn-3:hover {
+    background-color: lightcoral;
+    transition-duration: 3s;
+}
